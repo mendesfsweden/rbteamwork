@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+/*---------headings---------*/
+
+.navbar-subtitle {
+  line-height: 10px;
+  font-weight: 200;
+  letter-spacing: 5px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.container-heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  margin: 80px 0 40px 0;
+  letter-spacing: 5px;
+  color: rgb(218, 202, 127);
+}
+
+.container-work h2 {
+  color: rgb(218, 202, 127);
+}
+
+.container-contact h2 {
+  margin-bottom: 20px;
+}
+
+.contact-subtitle {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 100;
+  padding-bottom: 40px;
+}
+
+/*---------buttons---------*/
+
+.work-btn {
+  color: rgb(19, 19, 19);
+  font-size: 20px;
+}
+
+.contact-btn {
+  background-color: #fafafa;
+  width: 100px;
+  letter-spacing: 2px;
+}
+
+/*---------navbar---------*/
+
+.navbar {
+  background-color: rgb(19, 19, 19);
+}
+
+.navbar .navbar-brand {
+  color: rgb(218, 202, 127);
+}
+
+.navbar .navbar-brand {
+  font-size: 15px;
+  letter-spacing: 4px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+
+.navbar-nav .nav-item .nav-link {
+  letter-spacing: 3px;
+  margin-right: 5px;
+  font-weight: 100;
+  font-size: 12px;
+  color: rgb(218, 202, 127);
+}
+
+.navbar-dark .navbar-toggler {
+  border: 0;
+}
+
+/*---------home---------*/
+
+.container-home {
+  height: 100vh;
+  position: relative;
+
+}
+
+.container-home:after{
+  content:"";
+  position:fixed; 
+  top:0;
+  height:100vh; 
+  left:0;
+  right:0;
+  z-index:-1; 
+  background: url("../images/bg_image.jpg") no-repeat center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    }
+
+/*---------about---------*/
+
+.container-about {
+  min-height: 900px;
+  background-color: rgb(19, 19, 19);
+  color: #fafafa;
+}
+
+.container-about p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*---------work---------*/
+.container-work {
+  min-height: 900px;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.container-work a {
+  letter-spacing: 3px;
+  font-size: 16px;
+}
+
+/*---------contact---------*/
+
+.container-contact {
+  min-height: 600px;
+  background-color: rgb(19, 19, 19);
+  color: #fafafa;
+}
+
+.container-contact p {
+  font-weight: 100;
+  margin: 3px;
+}
+
+.container-contact ul {
+  margin-top: 30px;
+}
+
+.container-contact ul li {
+  font-weight: 100;
+}
+
+.contact-label {
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+/*---------hovers---------*/
+
+.navbar-nav .nav-item .nav-link:hover {
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.contact-btn:hover {
+  background-color: rgb(19, 19, 19);
+  color: rgb(218, 202, 127);
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.social-links i:hover {
+  color: rgb(218, 202, 127);
+   -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+
+/*---------icons---------*/
+
+.social-links i {
+  color: #fafafa;
+  font-size: 26px;
+  padding: 10px;
+}
